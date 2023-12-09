@@ -1,4 +1,4 @@
-# Core software Engineering Principles 
+# Design Patterns and Principles
 
 This repository follows various design patterns and principles to enhance the structure, maintainability, and extensibility of the codebase. Below is a brief overview of the design patterns and principles implemented:
 
@@ -50,8 +50,16 @@ Avoid implementing features until they are necessary. This helps to prevent over
 ### Cohesive (SLAP - Single Level of Abstraction Principle)
 Ensure that functions and classes have a single responsibility and operate at a single level of abstraction.
 
-## Default Methods in Interfaces
+### Accidental Complexity and Inherent Complexity
 
-Default methods in interfaces support the Open-Closed Principle by allowing for interface extension without breaking existing implementations. They also offer a mechanism to reduce the impact of the Interface Segregation Principle by providing default implementations that can be optionally overridden.
+Accidental complexity refers to complexities introduced during the development process that are not inherent in the problem being solved. Inherent complexity is the complexity that is unavoidable and comes from the nature of the problem itself.
+
+Striving for simplicity and adhering to design principles help minimize accidental complexity, allowing developers to focus on solving the inherent complexity of the problem.
+
+### High Cohesion and Low Coupling
+
+High cohesion ensures that components of a system are focused and closely related to a specific task. Low coupling minimizes dependencies between components. Together, they contribute to a well-designed system by making it more modular, maintainable, and scalable.
+
+A design with high cohesion and low coupling is easier to understand, modify, and extend. It promotes code reusability and facilitates the isolation of changes, making the system more resilient to future modifications.
 
 Feel free to explore the codebase and contribute to the project following these design patterns and principles. Happy coding!
