@@ -1,4 +1,4 @@
-# Project Design Patterns and Principles
+# Core software Engineering Principles 
 
 This repository follows various design patterns and principles to enhance the structure, maintainability, and extensibility of the codebase. Below is a brief overview of the design patterns and principles implemented:
 
