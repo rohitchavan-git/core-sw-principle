@@ -22,6 +22,31 @@ The Builder pattern separates the construction of a complex object from its repr
 ### AOP/Execute Around Pattern
 Aspect-Oriented Programming (AOP) is used to separate cross-cutting concerns by encapsulating them in aspects. The Execute Around Pattern focuses on wrapping the main logic with setup and teardown operations.
 
+### Factory Method Pattern
+Defines an interface for creating objects but lets subclasses alter the type of objects that will be created.
+
+### Abstract Factory Pattern
+Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+### Builder Pattern
+Separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
+
+### Prototype Pattern
+Creates new objects by copying an existing object, known as the prototype.
+
+### Adapter Pattern
+Allows the interface of an existing class to be used as another interface.
+
+### Decorator Pattern
+Attaches additional responsibilities to an object dynamically, providing a flexible alternative to subclassing for extending functionality.
+
+### Observer Pattern
+Defines a one-to-many dependency between objects, ensuring that when one object changes state, all its dependents are notified and updated automatically.
+
+### Command Pattern
+Encapsulates a request as an object, allowing users to parameterize clients with queues, requests, and operations.
+
+
 ## SOLID Principles
 
 ### Single Responsibility Principle (SRP)
